@@ -16,15 +16,13 @@ namespace Assesment_part2
 
             // Task 1: ArrayList Initialization and Population
 
-            ArrayList studentGrades = new ArrayList();
-            studentGrades.Add(85);
-            studentGrades.Add(92);
-            studentGrades.Add(78);
-            studentGrades.Add(95);
-            studentGrades.Add(88);
+            ArrayList studentGrades = new ArrayList
+            {
+                85,92,78,95,88
+            };
 
             // Task 2: Display and Sum
-
+            Console.WriteLine("Total " + studentGrades.Count+" Grades present in the Student Grade List those are");
             for (int i = 0; i < studentGrades.Count; i++)
             {
                 Console.WriteLine(studentGrades[i]);
